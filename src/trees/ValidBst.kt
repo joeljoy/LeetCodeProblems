@@ -10,12 +10,14 @@ fun main() {
 class ValidBst {
 
     fun isValidBST(root: TreeNode?): Boolean {
-        return validBst(root, Int.MIN_VALUE, Int.MAX_VALUE)
+        return validBst(root, Long.MIN_VALUE, Long.MAX_VALUE)
     }
 
-    private fun validBst(root: TreeNode?, min: Int, max: Int): Boolean {
+    private fun validBst(root: TreeNode?, min: Long, max: Long): Boolean {
         if (root == null) return true
         if (root.`val` < min || root.`val` > max) return false
-        return validBst(root.left, min, (root.`val` - 1)) && validBst(root.right, (root.`val` + 1), max)
+        val minValue: Long = (root.`val`).toLong() - 1
+        val maxValue: Long = (root.`val`).toLong() + 1
+        return validBst(root.left, min, minValue) && validBst(root.right, maxValue, max)
     }
 }
