@@ -1,45 +1,42 @@
 package twopointer;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 public class LongestSubString {
 
     public static void main(String[] args) {
-//        String s = "pwwkew";
-        String s = "abcabcbb";
-//        String s = "bbbbbb";
-//        String s = "a";
-//        String s = "autyio";
-//        String s = "dvdf";
-//        String s = "cdddd";
+        String s0 = "pwwkew";
+        String s1 = "abcabcbb";
+        String s2 = "bbbbbb";
+        String s3 = "a";
+        String s4 = "autyio";
+        String s5 = "";
+        String s6 = "dvdf";
+        String s7 = "cddddd";
         LongestSubString subString = new LongestSubString();
-        System.out.println(subString.lengthOfLongestSubstring(s));
+        System.out.println(subString.lengthOfLongestSubstring(s0));
+        System.out.println(subString.lengthOfLongestSubstring(s1));
+        System.out.println(subString.lengthOfLongestSubstring(s2));
+        System.out.println(subString.lengthOfLongestSubstring(s3));
+        System.out.println(subString.lengthOfLongestSubstring(s4));
+        System.out.println(subString.lengthOfLongestSubstring(s5));
+        System.out.println(subString.lengthOfLongestSubstring(s6));
+        System.out.println(subString.lengthOfLongestSubstring(s7));
     }
 
     public int lengthOfLongestSubstring(String s) {
-        int sumSoFar = 0;
-        Map<Character, Integer> map = new HashMap<>();
         int left = 0;
-        int right = 0;
-        while (left <= right && right < s.length()) {
-            char c = s.charAt(right);
-            if (map.containsKey(c)) {
-                int currentLength = right - left;
-                if (sumSoFar < currentLength) {
-                    sumSoFar = currentLength;
-                }
-                left = map.get(c) + 1;
+        int maxLengthSoFar = 0;
+        Set<Character> characterSet = new HashSet<>();
+        for (int right = 0; right < s.length(); right++) {
+            while (characterSet.contains(s.charAt(right))) {
+                characterSet.remove(s.charAt(left));
+                left++;
             }
-            map.put(c, right);
-            right++;
+            characterSet.add(s.charAt(right));
+            maxLengthSoFar = Math.max(maxLengthSoFar, right - left + 1);
         }
-        int currentLength = right - left;
-        if (sumSoFar < currentLength) {
-            sumSoFar = currentLength;
-        }
-        return sumSoFar;
+        return maxLengthSoFar;
     }
 }

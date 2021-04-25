@@ -16,7 +16,7 @@ public class LongestPalindrome {
             }
         }
         for (int i = 0; i < 256; i++) {
-            if (charFrequency[i] == 1) {
+            if (charFrequency[i] % 2 == 1) {
                 longestLength += 1;
                 break;
             }
