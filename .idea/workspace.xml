@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4f01a93e-312a-4c81-9d36-3dfaabafd03f" name="Default Changelist" comment="Added some problems">
-      <change afterPath="$PROJECT_DIR$/src/array/PascalsTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/SortMergedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/AllProductsExceptCurrent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/AssignCookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/CanPlaceFlowers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/DeleteColumnsToMakeSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/LemonadeChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/StockPrice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/greedy/WalkingRobotSimulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/FirstUniqueCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/IntersectionArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/IslandPerimeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/KeyboardRow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hashmap/WordPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linekedlist/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linekedlist/RemoveElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/SumOfSquares.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/BadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/IntersectArrays2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/PerfectSquare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searching/Sqrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/trees/BalancedBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/ThreeSum1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCodeKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeKotlin/META-INF/LeetCodeKotlin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeKotlin/trees/InorderTraversalRecursive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeKotlin/trees/PostOrderIterative.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeKotlin/trees/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeKotlin/trees/ValidBst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeKotlin/trees/ValidBstKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hashmap/LongestPalindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hashmap/LongestPalindrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/twopointer/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/twopointer/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/array/ThreeSum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/array/ThreeSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/array/ThreeSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/trees/InorderTraversalRecursive.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/trees/InorderTraversalRecursive.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/trees/PostOrderIterative.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/trees/PostOrderIterative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/trees/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/trees/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/trees/ValidBst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/trees/ValidBst.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/trees/ValidBstKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/trees/ValidBstKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/ThreeSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,10 +51,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="Application.BadVersion">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="BadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="searching.BadVersion" />
       <module name="LeetCode" />
@@ -114,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PerfectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.PerfectSquare" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SumOfSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="math.SumOfSquares" />
       <module name="LeetCode" />
@@ -140,13 +108,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ThreeSum" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.BadVersion" />
         <item itemvalue="Application.LongestSubString" />
         <item itemvalue="Application.BalancedBinaryTree" />
         <item itemvalue="Application.SumOfSquares" />
-        <item itemvalue="Application.PerfectSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -232,11 +213,6 @@
           <url>file://$PROJECT_DIR$/src/twopointer/RemoveElement.java</url>
           <line>17</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/array/ThreeSum.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/hashmap/KeyboardRow.java</url>

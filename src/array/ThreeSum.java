@@ -7,45 +7,48 @@ public class ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {
         Set<List<Integer>> resultSet = new HashSet<>();
+        Arrays.sort(nums);
         for (int i = 0; i < nums.length; i++) {
-            Map<Integer, Integer> map = new HashMap<>();
-            Set<Integer> set = new HashSet<>();
-            Integer requiredSum = -nums[0];
-            for (int j = 0; j < nums.length; j++) {
-                if (i != j) {
-                    if (set.contains(nums[j])) {
-                        List<Integer> result = new ArrayList<>();
-                        result.add(nums[i]);
-                        result.add(requiredSum - nums[j]);
-                        result.add(nums[j]);
-                        resultSet.add(result);
+            int target = -nums[i];
+            int left = 0;
+            int right = nums.length - 1;
+            while (left < right) {
+                if (left == i) {
+                    left++;
+                } else if (right == i) {
+                    right--;
+                } else {
+                    int sum = nums[left] + nums[right];
+                    if (target == sum) {
+                        List<Integer> answer = new ArrayList<>();
+                        answer.add(nums[left]);
+                        answer.add(nums[right]);
+                        answer.add(-target);
+                        Collections.sort(answer);
+                        resultSet.add(answer);
+                        left++;
+                        right--;
+                    } else if (target > sum) {
+                        left++;
                     } else {
-                        set.add(requiredSum - nums[j]);
+                        right--;
                     }
                 }
             }
         }
-        List<List<Integer>> result = new ArrayList<>();
-        resultSet.forEach(new Consumer<List<Integer>>() {
-            @Override
-            public void accept(List<Integer> integers) {
-                result.add(integers);
-            }
-        });
-        return result;
+        return new ArrayList<>(resultSet);
     }
 
     public static void main(String[] args) {
-        int val = 1/2;
-        System.out.println(val);
 //        int[] a = {-1, 0, 1, 2, -1, -4};
-//        ThreeSum sum = new ThreeSum();
-//        List<List<Integer>> result = sum.threeSum(a);
-//        for (List<Integer> list : result) {
-//            for (Integer integer : list) {
-//                System.out.print(integer);
-//            }
-//            System.out.println();
-//        }
+        int[] a = {-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4};
+        ThreeSum sum = new ThreeSum();
+        List<List<Integer>> result = sum.threeSum(a);
+        for (List<Integer> list : result) {
+            for (Integer integer : list) {
+                System.out.print(integer+",");
+            }
+            System.out.println();
+        }
     }
 }
