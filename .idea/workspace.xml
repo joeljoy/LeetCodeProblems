@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f01a93e-312a-4c81-9d36-3dfaabafd03f" name="Default Changelist" comment="More problems.">
-      <change afterPath="$PROJECT_DIR$/src/array/MatrixReShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/PartitionLabels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/PrintVertical.java" afterDir="false" />
+    <list default="true" id="4f01a93e-312a-4c81-9d36-3dfaabafd03f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/BalanceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/IntersectionOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/SubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stack/MinimumBraceRemove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/array/ThreeSum1.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +66,13 @@
       <recent name="string" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PartitionLabels">
-    <configuration name="BadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="searching.BadVersion" />
+  <component name="RunManager" selected="Application.MinimumBraceRemove">
+    <configuration name="BalanceString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.BalanceString" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="searching.*" />
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twopointer.LongestSubString" />
+    <configuration name="MinimumBraceRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.MinimumBraceRemove" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twopointer.*" />
+          <option name="PATTERN" value="stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ThreeSum" />
+    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SubArraySum" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumBraceRemove" />
+        <item itemvalue="Application.BalanceString" />
+        <item itemvalue="Application.SubArraySum" />
         <item itemvalue="Application.PartitionLabels" />
         <item itemvalue="Application.PrintVertical" />
-        <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.BadVersion" />
-        <item itemvalue="Application.LongestSubString" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632983794252</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add&#10;+ PrintVetical&#10;+ PartitionLabels&#10;+ MatrixReShape">
+      <created>1633008118212</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633008118212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +212,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added some problems" />
     <MESSAGE value="More problems." />
-    <option name="LAST_COMMIT_MESSAGE" value="More problems." />
+    <MESSAGE value="Add&#10;+ PrintVetical&#10;+ PartitionLabels&#10;+ MatrixReShape" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add&#10;+ PrintVetical&#10;+ PartitionLabels&#10;+ MatrixReShape" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -334,6 +342,46 @@
           <url>file://$PROJECT_DIR$/src/searching/PerfectSquare.java</url>
           <line>5</line>
           <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/SubArraySum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/SubArraySum.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/SubArraySum.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/SubArraySum.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/SubArraySum.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/BalanceString.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/BalanceString.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/BalanceString.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
